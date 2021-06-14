@@ -1,7 +1,12 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+tests/__pycache__/
+tests/fixtures/__pycache__/
+yatube_api/posts/__pycache__/
+yatube_api/posts/migrations/__pycache__/
+yatube_api/yatube_api/__pycache__/
 
 # C extensions
 *.so
