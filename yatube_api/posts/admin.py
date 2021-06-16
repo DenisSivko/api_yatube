@@ -14,7 +14,5 @@ class CommentAdmin(admin.ModelAdmin):
     list_display = ('pk', 'author', 'post', 'text', 'created')
 
 
-# при регистрации модели Post
-# источником конфигурации для неё назначаем класс PostAdmin
 admin.site.register(Post, PostAdmin)
 admin.site.register(Comment, CommentAdmin)
